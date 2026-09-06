@@ -1,0 +1,24 @@
+{
+  "return_model": {
+    "rmse": 0.0476124105094447,
+    "n_test": 1362,
+    "engine": "xgboost"
+  },
+  "direction_model": {
+    "accuracy": 0.5697503671071953,
+    "f1": 0.634207240948814,
+    "n_test": 1362,
+    "engine": "xgboost"
+  },
+  "feature_cols": [
+    "volatility_20d",
+    "momentum_20d",
+    "pe_ratio",
+    "beta",
+    "debt_equity",
+    "roi",
+    "interest_rate",
+    "gdp_growth",
+    "cpi_inflation"
+  ]
+}
